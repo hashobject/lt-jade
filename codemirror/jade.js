@@ -109,8 +109,8 @@ CodeMirror.defineMode("jade", function(config, parserConfig){
       } else if(stream.eatSpace()) {
         state.justMatchedKeyword = false;
         if(stream.match(keyword_regex3) && stream.eatSpace()) {
-            state.justMatchedKeyword = true;
-            return "keyword";
+          state.justMatchedKeyword = true;
+          return "keyword";
         }
       } else if(stream.match(symbol_regex1)) {
         state.justMatchedSymbol = true;
