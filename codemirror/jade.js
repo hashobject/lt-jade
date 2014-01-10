@@ -1,3 +1,4 @@
+// originaly copied and adapted from https://github.com/dbratcher/brackets-jade/blob/master/main.js
 CodeMirror.defineMode("jade", function(config, parserConfig){
   "use strict";
   var symbol_regex1 = /^(?:~|!|%|\^|\*|\+|=|:|;|,|\?|&|<|>|\|)/;
